@@ -1,0 +1,43 @@
+body {
+    background-color: darkgray;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+h2:hover{
+    color: rgb(246, 136, 19);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /*top bottom center*/
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+#Calculator {
+    background-color:#000;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+}
+
+#inputuser {
+    direction: rtl;
+    /*"Right-to-Left" hota hai, jo writing direction ko define karta hai*/
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.number {
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 18px;
+}
